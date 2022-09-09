@@ -1,0 +1,64 @@
+.main {
+  background-image: linear-gradient(rgba(157, 14, 14, 0), #510808), url("../assets//Images//homepageimg.png");
+  background-size: cover;
+  height: 480px;
+}
+
+.mainicon {
+  display: inline;
+  background-color: white;
+  font-size: 50px;
+  font-weight: 600;
+  width: 60px;
+  color: red;
+  position: absolute;
+  margin: 70px 0px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  top: 30%;
+
+}
+
+.selcetor-row {
+  position: absolute;
+  top: 250px;
+}
+
+@media screen and (min-width:600px) {
+  .selcetor-row {
+    left: 13%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .selcetor-row {
+    left: 23%;
+  }
+}
+
+.Selector {
+  text-emphasis-color: rgb(174, 153, 153);
+  font-size: large;
+  padding: 8px 51px;
+  font-weight: 100;
+}
+
+
+
+.serchcol {
+  position: relative;
+}
+
+.serch-icon {
+  position: absolute;
+  height: 20px;
+  top: 15px;
+  left: 14px;
+}

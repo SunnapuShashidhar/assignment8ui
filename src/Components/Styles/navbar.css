@@ -1,0 +1,24 @@
+.gridapply {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+div.buttongroup {
+  padding-right: 20px;
+}
+
+div.buttongroup button {
+  background-color: transparent;
+  color: white;
+  border: white solid 1px;
+  border-radius: 5px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+div.buttongroup button:hover {
+  background-color: red;
+  color: white;
+
+}

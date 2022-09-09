@@ -1,0 +1,40 @@
+.items {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.onsubmit {
+  margin: 10px 40px;
+}
+
+
+.pagecontainer {
+  position: relative;
+  margin: 50px 0px;
+}
+
+.item {
+  color: rgb(40, 50, 115);
+
+}
+
+@media screen and (min-width:600px) {
+  .pagecontainer {
+    position: absolute;
+    padding-top: 50px;
+    bottom: 0%;
+    left: 30%;
+  }
+
+  .onsubmit {
+    margin: 10px 30px;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:1200px) {
+  .pagecontainer {
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+  }
+}

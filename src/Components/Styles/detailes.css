@@ -1,0 +1,112 @@
+.mainimg {
+  border: solid blue 1px;
+
+}
+
+.mainanchr {
+  border-bottom: solid #aaa 1px;
+
+}
+
+.anchr {
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+}
+
+div.resname {
+  padding: 14px 0px;
+  font-size: 1.9rem;
+  color: rgb(37, 59, 91);
+  font-weight: 600;
+}
+
+span.anchr1:hover,
+span.anchr2:hover {
+  display: inline-block;
+  border-bottom: solid red;
+}
+
+div.restarendetailes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  position: relative;
+
+}
+
+div.restarendetailes div.underline {
+  border-bottom: #000 solid 1px;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+
+
+div.restarentdata {
+  display: inline-block;
+  padding: 20px;
+}
+
+div.restarentdata .header {
+  cursor: pointer;
+}
+
+div.restarentdata input[type="radio"]:checked~div.content {
+  max-height: 100%;
+  overflow: visible;
+
+}
+
+
+div.restarentdata input[type="radio"]:checked~label {
+  border-bottom: red solid;
+  transition: all 0.2s ease-out;
+  top: 25px;
+}
+
+div.restarentdata input[type="radio"] {
+  display: none;
+
+}
+
+div.content {
+  padding: 0%;
+  max-height: 0%;
+  overflow: hidden;
+}
+
+div.aboutplc {
+  padding: 14px 0px;
+  font-size: large;
+}
+
+div.content {
+  position: absolute;
+}
+
+.cuisinehead,
+div.aboutplc {
+  color: rgb(37, 59, 91);
+  font-weight: 500;
+}
+
+label.cuisinehead {
+  font-size: large;
+}
+
+div.cuisinehead {
+  padding-top: 5px;
+}
+
+div.cuisinedata {
+  color: rgb(113, 146, 197);
+}
+
+@media screen and (min-width:550px) {
+  .mainimg {
+    height: 500px;
+    border: solid blue 1px;
+
+  }
+}

@@ -1,0 +1,32 @@
+.card-title,
+.quicksearch {
+  font-family: poppins;
+  color: #0f2f74;
+
+}
+
+.card-title {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.description {
+  font-family: poppins;
+  color: #7b8db3;
+}
+
+.cardstyle {
+  border-radius: 0%;
+}
+
+div .filterLink {
+  text-decoration: none;
+  font-size: larger;
+  margin: 20px 0;
+  color: #0f2f74;
+}
+
+
+.svg {
+  height: 20px;
+}
